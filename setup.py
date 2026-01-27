@@ -65,7 +65,7 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(include=['concordia', 'concordia.*']),
     package_data={},
-    python_requires='>=3.11',
+    python_requires='>=3.10',
     install_requires=(
         'absl-py',
         'boto3',

@@ -25,7 +25,7 @@ from concordia.language_model import language_model
 from concordia.typing import entity_component
 
 
-class Role(enum.StrEnum):
+class Role(StrEnum):
   ENTITY = 'entity'
   GAME_MASTER = 'game_master'
   INITIALIZER = 'initializer'
